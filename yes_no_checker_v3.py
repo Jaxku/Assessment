@@ -1,4 +1,4 @@
-"""yes_no_checker_v1
+"""yes_no_checker_v3
 Yes no checker"""
 
 show_instructions = ""
