@@ -8,6 +8,7 @@ if len(user_name) > 35:
     print("Please enter a name under 36 characters.")
 if len(user_name) < 1:
     print("Please enter a name")
-if not re.match("^[a-z],[-],[ ]*$", user_name): #the only type of characters allowed
+if re.match("^[a-z],[-],[ ]*$", user_name):  # the only type of characters allowed
     print("Only A-Z and hyphens are allowed!")
-
+else:
+    print("you have a normal name")
