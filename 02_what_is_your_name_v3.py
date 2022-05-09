@@ -1,5 +1,5 @@
-"""02_what_is_your_name_v1
-added while loop"""
+"""02_what_is_your_name_v3
+added while loop and experimented on different ways on how to detect"""
 
 import re
 
@@ -8,5 +8,6 @@ if len(user_name) > 35:
     print("Please enter a name under 36 characters.")
 if len(user_name) < 1:
     print("Please enter a name")
-if not re.compile("^[a-z],[-],[ ]*$", user_name): #ask mr baker for help
+if not re.compile("^[a-z],[-],[ ]*$", user_name): #the only type of characters allowed
     print("Only A-Z and hyphens are allowed!")
+

@@ -1,4 +1,4 @@
-"""02_what_is_your_name_v1
+"""02_what_is_your_name_v3 testing
 added while loop"""
 
 user_name = input("What is your name? ")  # User inputs name
