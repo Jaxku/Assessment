@@ -1,5 +1,5 @@
 """02_what_is_your_name_v3 testing
-added while loop"""
+experimenting"""
 
 user_name = input("What is your name? ")  # User inputs name
 if any( [ i>'z' or i<'a' for i in user_name]):

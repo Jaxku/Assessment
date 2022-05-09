@@ -1,5 +1,5 @@
 """02_what_is_your_name_v3
-added while loop and experimented on different ways on how to detect"""
+refined code"""
 
 import re
 
