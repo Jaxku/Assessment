@@ -14,4 +14,5 @@ while True:
         print("Only A-Z and hyphens are allowed!")
     else:
         print("you have a normal name")
+        print(user_name)
         break
