@@ -1,4 +1,4 @@
-"""02_what_is_your_name_v2
+"""02_what_is_your_name_v
 Limiting character length"""
 
 
