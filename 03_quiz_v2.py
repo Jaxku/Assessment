@@ -33,4 +33,3 @@ else:
     print("XXXXX INCORRECT! XXXXX\n")
     print("No points have been awarded, better luck next time.")
     print(f"Your current score is {user_score}")
-
