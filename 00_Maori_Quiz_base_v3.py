@@ -1,5 +1,5 @@
-"""yes_no_checker_v1
-Adding instructions, name checker"""
+"""Maori_quiz_base_v3
+Adding instructions"""
 
 import re
 

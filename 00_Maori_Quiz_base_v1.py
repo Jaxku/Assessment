@@ -1,4 +1,4 @@
-"""yes_no_checker_v1
+"""Maori_quiz_base_v1
 Adding in yes/no checker to write main function"""
 
 

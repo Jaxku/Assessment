@@ -1,5 +1,5 @@
-"""03_quiz_v5
-Adding formatting"""
+"""03_quiz_v6
+Adding end screen, point checker"""
 
 import random
 
@@ -53,3 +53,19 @@ while rounds_played < 11:  # Limits quiz to 10 rounds
         print(f"You are on round {rounds_played}/10")
         rounds_played += 1  # keep track of rounds
         print()  # adds some spacing between questions
+
+print("You finished the quiz! Give yourself a pat on the back")
+
+# gives user a special message if they get 10/10 on the quiz
+if user_score == 10:
+        print(formatter("✓", f"Congratulations you got a perfect score of 10!"))
+
+    # checks if user scored more than the minimum to pass the test.
+elif user_score > 7:
+    print(formatter("✓", f"Congratulations you passed the test!"))
+    print(f"You scored {user_score}/10")
+
+    # if the user fails
+else:
+    print(formatter("x", f"YOU FAILED"))
+    print(f"Sorry {user}, but you failed you needed to answer 7 or more questions correctly to pass")  # if user fails user is variable is unalienable but is in the base v4
