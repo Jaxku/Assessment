@@ -77,7 +77,6 @@ def quiz():
     # 2nd list
     number_maori = ["tahi", "rua", "toru", "wha", "rima", "ono", "whitu", "waru", "iwa", "tekau"]
 
-    play_again = " "
     rounds_played = 1
     user_score = 0
 
