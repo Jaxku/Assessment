@@ -1,5 +1,5 @@
 """02_what_is_your_name_v5
-based on v3 adding a while loop statement and making it testing ready. final version"""
+based on v3 adding a while loop statement and making it testing ready."""
 
 import re
 
