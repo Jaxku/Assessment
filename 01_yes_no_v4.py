@@ -1,7 +1,6 @@
-"""yes_no_checker_v3
-This is the final version of the yes/no checker this version is a function and can be used anywhere in the code
-unlike the other versions which were developed with function in mind which is to ask if they have played the quiz before
-which was good for testing."""
+"""yes_no_checker_v4
+This function works fine and gets the job done, but it can work better. May refine it later on.
+"""
 
 # yes/no checking function
 def yes_no(question_text):
