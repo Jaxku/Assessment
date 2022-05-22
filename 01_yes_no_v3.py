@@ -1,5 +1,7 @@
 """yes_no_checker_v3
-Yes no checker"""
+Extra improvements and optimisations from the last version
+Added print statements for testing purposes
+"""
 
 show_instructions = ""
 while show_instructions != "x":
