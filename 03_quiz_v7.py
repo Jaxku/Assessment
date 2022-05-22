@@ -1,7 +1,7 @@
 """03_quiz_v7
 Tells user the final score
 Deletes questions after they have been asked so they are not reused
-Based on v6
+Based on 03_quiz_v6
 """
 
 #  Quiz also contains score checker
