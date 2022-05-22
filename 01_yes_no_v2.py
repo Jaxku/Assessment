@@ -1,3 +1,7 @@
+"""yes_no_checker_v2
+Slightly more refined version of the last version.
+Based off yes_no_checker_v1. """
+
 # Ask the user if they have played before
 show_instructions = input('Have you taken this quiz before? (Yes/No): ').lower()
 
