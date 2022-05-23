@@ -23,4 +23,4 @@ def yes_no(question_text):
             return False
 
         # Otherwise - show error
-        print("Error: Please put either Yes or No")
+        print("Error: Please put either Yes or No in English or Te Reo Maori.")

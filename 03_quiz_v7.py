@@ -61,7 +61,7 @@ def quiz():
         print(formatter("✓", f"Congratulations you got a perfect score of 10!"))
 
     # checks if user scored more than the minimum to pass the test.
-    elif user_score > 7:
+    elif user_score >6:
         print(formatter("✓", f"Congratulations you passed the test!"))
         print(f"You scored {user_score}/10")
 

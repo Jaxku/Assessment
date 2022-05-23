@@ -4,6 +4,7 @@ Refined main routine, yes/no function, quiz function, name function"""
 import re
 import random
 
+
 # function to format text output
 def formatter(symbol, text):
     sides = symbol * 3
@@ -35,8 +36,8 @@ def yes_no(question_text):
         # Ask the user if they have played before
         answer = input(question_text).lower()
 
-        yes_responses = ["yes", "a", "ae", "y", "true"]  # supports english and te reo
-        no_responses = ["no", "kao", "n", "false"]  # supports english and te reo
+        yes_responses = ["yes", "a", "ae", "y", "true"]  # supports english and te reo maori
+        no_responses = ["no", "kao", "n", "false"]  # supports english and te reo maori
 
         # If they say yes, output "Program Continues"
         if answer in yes_responses:
@@ -47,7 +48,7 @@ def yes_no(question_text):
             return False
 
         # Otherwise - show error
-        print("Error: Please put either Yes or No")
+        print("Error: Please put either Yes or No in English or Te Reo Maori.")
 
 
 # Instructions for the quiz
@@ -120,8 +121,8 @@ def quiz():
     if user_score == 10:
         print(formatter("✓", f"Congratulations you got a perfect score of 10!"))
 
-    # checks if user scored more than the minimum to pass the test.
-    elif user_score > 7:
+    # checks if user scored more than the minimum to pass the test, which is six.
+    elif user_score > 6:
         print(formatter("✓", f"Congratulations you passed the test!"))
         print(f"You scored {user_score}/10")
 
@@ -132,6 +133,7 @@ def quiz():
 
     print(f"Your final score was {user_score}/10")
 
+
 # Main routine
 # Initial welcome
 print(formatter("-", "Welcome to the Maori Number Quiz"))
@@ -139,7 +141,7 @@ print()
 while True:
     user = name()
     if user:
-       break
+        break
 print(f"Welcome to the Maori Number Quiz, {user}")
 # Ask if the user requires instructions, call the instructions function if needed
 show_instructions = yes_no("Have you played this game before? (Yes/No): ")
@@ -156,7 +158,7 @@ while True:
 # Quiz loop with a different question for if they would like to take the quiz again
 while True:
     player_ready = yes_no("Are you ready to play again? (Yes/No): ")
-    if player_ready: #  See if the player would like to play again. If they would, run the quiz function, otherwise break with a goodbye message
+    if player_ready:  # See if the player would like to play again. If they would, run the quiz function, otherwise break with a goodbye message
         quiz()
     else:
         print(formatter("*", "Goodbye"))

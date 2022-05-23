@@ -1,6 +1,7 @@
 
 """02_what_is_your_name_v6
-based on v5, refined a loop to make sure that if a user gives an invalid input it can ask them again."""
+based on v5, refined a loop to make sure that if a user gives an invalid input it can ask them again.
+This Version does not work in this file I can only be run in 00_Maori_Quiz_base_v5.py due to the use of functions"""
 
 def name():
     user_name = input("What is your name? ")
