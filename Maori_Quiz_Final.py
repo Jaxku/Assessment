@@ -1,5 +1,5 @@
-"""Maori_quiz_base_v5
-Final File, fixed PEP8, adds more comments"""
+"""Maori_Quiz_Final
+Final File, fixed PEP8, added more comments"""
 
 import re
 import random
@@ -150,7 +150,7 @@ def quiz():
     # if the user fails
     else:
         print(formatter("x", f"YOU FAILED"))
-        print(f"Sorry {user}, but you failed you needed to answer"
+        print(f"Sorry {user}, but you failed. You needed to answer"
               f" 7 or more questions correctly to pass")  # if user fails
 
     print(f"Your final score was {user_score}/10")
