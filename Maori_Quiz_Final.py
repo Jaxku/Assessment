@@ -137,14 +137,14 @@ def quiz():
 
     # gives user a special message if they get 10/10 on the quiz
     if user_score == 10:
-        print(formatter("✓", f"Congratulations you got"
+        print(formatter("✓", f"Congratulations {user}, you got"
                         f" a perfect score of 10!"))
         # Print statements take up two lines to fit PEP8 standards
 
     # checks if user scored more than the minimum to pass the test
     # The minimum score to pass is six
     elif user_score > 6:
-        print(formatter("✓", f"Congratulations you passed the test!"))
+        print(formatter("✓", f"Congratulations {user}, you passed the test!"))
         print(f"You scored {user_score}/10")
 
     # if the user fails

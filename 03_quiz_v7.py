@@ -2,6 +2,8 @@
 Tells user the final score
 Deletes questions after they have been asked so they are not reused
 Based on 03_quiz_v6
+This version will only work when pasted into Maori_Quiz_Final as it
+needs variables that aren't available in this file
 """
 
 #  Quiz also contains score checker
@@ -58,7 +60,7 @@ def quiz():
 
     # gives user a special message if they get 10/10 on the quiz
     if user_score == 10:
-        print(formatter("✓", f"Congratulations you got a perfect score of 10!"))
+        print(formatter("✓", f"Congratulations {user}, you got a perfect score of 10!"))
 
     # checks if user scored more than the minimum to pass the test.
     elif user_score >6:
