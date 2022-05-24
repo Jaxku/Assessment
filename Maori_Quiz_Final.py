@@ -97,7 +97,7 @@ def quiz():
     rounds_played = 1
     user_score = 0
 
-    while rounds_played < 11:  # Limits quiz to 10 rounds
+    while rounds_played < 11:  # Limits quiz to 10 rounds in a while loop
         question = random.choice(numbers_english)
 
         print(formatter("-", f"Question {rounds_played}"))
