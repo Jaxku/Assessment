@@ -2,7 +2,7 @@
 """
 
 symbol = "-"
-text = "Welcome to the Lucky Unicorn Game"
+text = "Welcome to the Maori Number Quiz"
 sides = symbol * 3
 
 formatted_text = f"{sides} {text} {sides}"

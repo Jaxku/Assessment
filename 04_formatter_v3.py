@@ -12,12 +12,9 @@ def formatter(symbol, text):
 
 
 # main routine
-print(formatter("-", "Welcome to the Lucky Unicorn Game"))
-print()
-print(formatter("!", "Congratulations, you got a unicorn"))
+print(formatter("-", "Welcome to the Maori Number Quiz"))
 print()
 print(formatter("*", "Goodbye"))
-print(formatter("Z", "Ouch! you got a Zebra"))
 print()
-print(formatter("（｡≧◇≦）ﾉ", "A donkey pushed you over!"))
+print(formatter("X", "INCORRECT"))
 print()
