@@ -14,6 +14,7 @@ def formatter(symbol, text):
 
 
 # Allows users to input name
+# if it follows the set rules to stop abuse of this function
 def name():
     user_name = input("What is your name? ")  # input for name
     if len(user_name) > 35:
@@ -75,7 +76,7 @@ def instructions():
 
 
 #  Quiz also contains score checker
-def quiz():
+def quiz():  # quiz function
     # This uses two ordinary (1-dimensional) lists
     print("Let's begin.\n"
           "\n"
