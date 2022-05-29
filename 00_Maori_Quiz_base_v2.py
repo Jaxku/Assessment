@@ -1,5 +1,7 @@
-"""Maori_quiz_base_v2
-Adding instructions and starting main routine"""
+"""
+Maori_quiz_base_v2
+Adding instructions and starting main routine
+"""
 
 
 # function to format text output
