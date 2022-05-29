@@ -1,6 +1,8 @@
-"""yes_no_checker_v1
+"""
+yes_no_checker_v1
 Beginnings of yes/no checker
-Basic program, gets the job done but it is not refined."""
+Basic program, gets the job done but it is not refined.
+"""
 
 
 # Ask the user if they have played before
