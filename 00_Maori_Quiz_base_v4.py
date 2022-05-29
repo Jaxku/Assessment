@@ -1,7 +1,5 @@
-"""
-Maori_quiz_base_v4
-Adding quiz
-"""
+"""Maori_quiz_base_v4
+Adding quiz"""
 
 import re
 import random
