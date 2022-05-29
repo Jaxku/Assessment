@@ -1,5 +1,7 @@
-"""Maori_Quiz_Final
-Final File, fixed PEP8, added more comments"""
+"""
+Maori_Quiz_Final
+Final File, fixed PEP8, added more comments
+"""
 
 import re
 import random
