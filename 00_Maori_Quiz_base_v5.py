@@ -1,7 +1,5 @@
-"""
-Maori_quiz_base_v5
-Refined main routine, yes/no function, quiz function, name function
-"""
+"""Maori_quiz_base_v5
+Refined main routine, yes/no function, quiz function, name function"""
 
 import re
 import random
