@@ -1,5 +1,7 @@
-"""Maori_quiz_base_v1
-Adding in yes/no checker to write main function"""
+"""
+Maori_quiz_base_v1
+Adding in yes/no checker to write main function
+"""
 
 
 # function to format text output
